@@ -18,14 +18,17 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<!-- 🔥 Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-72YFC9LXVW"></script>
+<!-- 🔥 Google Analytics (FINAL FIXED) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-72YFC9LXVN"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
+  
   gtag('js', new Date());
 
-  gtag('config', 'G-72YFC9LXVW');
+  gtag('config', 'G-72YFC9LXVN', {
+    page_path: window.location.pathname,
+  });
 </script>
 
 </head>
